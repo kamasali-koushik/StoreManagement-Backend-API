@@ -39,4 +39,7 @@
    Fetches customer purchase data for the given customer name.
  
  
+ -- POSTMAN --
+
+ ![alt text](https://github.com/koushik-15/StoreManagement-Backend-API/blob/main/ss/create%20purchase.png)
  
