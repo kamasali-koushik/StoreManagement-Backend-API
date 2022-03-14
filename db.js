@@ -8,26 +8,19 @@ const conn = mysql.createConnection({
   multipleStatements: true,
 });
 
+conn.connect((err, args) => {
+  if (!err) {
+    console.log("Connected to database!");
+  }
+});
 
-const db = async (query) => {
- await conn.connect((err, args) => {
-    if (!err) {
-      console.log("Connected to database!");
-    }
+const db = (query) => {
+  return new Promise((resolve, reject) => {
+    conn.query(query, (err, res, fields) => {
+      if (err) reject(err);
+      else resolve({ res, fields });
+    });
   });
-  
-  try{
-     var dta=await conn.query(query)
-     conn.release()
-    
-     return dta
-
-  }
-  catch(e){
-    return e
-  }
-  
 };
-
 
 module.exports = db;
