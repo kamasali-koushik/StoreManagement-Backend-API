@@ -42,4 +42,8 @@
  -- POSTMAN --
 
  ![alt text](https://github.com/koushik-15/StoreManagement-Backend-API/blob/main/ss/create%20purchase.png)
- 
+ ![alt text](https://github.com/koushik-15/StoreManagement-Backend-API/blob/main/ss/create%20stores.png)
+ ![alt text](https://github.com/koushik-15/StoreManagement-Backend-API/blob/main/ss/get%20purchase%20by%20customer%20name.png)
+ ![alt text](https://github.com/koushik-15/StoreManagement-Backend-API/blob/main/ss/get%20store%20by%20name.png)
+ ![alt text](https://github.com/koushik-15/StoreManagement-Backend-API/blob/main/ss/get%20stores.png)
+ ![alt text](https://github.com/koushik-15/StoreManagement-Backend-API/blob/main/ss/get%20transactions.png)
