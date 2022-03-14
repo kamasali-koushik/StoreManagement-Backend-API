@@ -1,5 +1,5 @@
 * * * UPBRINGO ASSIGNMENT * * *
-(switch on word wrap on in the notepad, to  clearly view it)
+
 
 **STORE DATABASE MANAGEMENT API**
 
